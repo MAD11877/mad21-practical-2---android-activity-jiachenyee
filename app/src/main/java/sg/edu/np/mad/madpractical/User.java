@@ -6,6 +6,13 @@ public class User {
     public Integer id;
     public Boolean followed;
 
+    public User() {
+        this.name = "test";
+        this.description = "test";
+        this.id = 0;
+        this.followed = true;
+    }
+
     public User(String name, String description, Integer id, Boolean followed) {
         this.name = name;
         this.description = description;
